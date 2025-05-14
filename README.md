@@ -26,14 +26,16 @@ This is an open-source 3D printer project based on **Arduino Mega 2560** and **R
 
 ---
 
-   ## 🛠️ Contribution
+## 🛠️ Contribution
+
 We welcome contributions! If you have improvements, bug fixes, or features to add, please fork the repository and submit a pull request. You can also report issues by opening a new ticket in the Issues tab.
+
+---
 
 ## Installation
 
-Follow these steps to get your 3D printer up and running:
+Clone the repository to your local machine:
 
-1. Clone the repository to your local machine:
-   ```bash
-   git clone https://github.com/your-repository/3d-printer.git
-
+```bash
+git clone https://github.com/AbdelrahmanELsokary/3D_Printer.git
+```
