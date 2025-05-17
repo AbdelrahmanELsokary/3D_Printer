@@ -1,0 +1,9 @@
+1- Wires (preferably silicone) – For power and signal connections.
+
+2- Heat Shrink Tubing / Electrical Tape – For insulation and safety.
+
+3- Screw Terminals / Connectors – For clean and secure wiring.
+
+4- External Mosfet (Optional) – For safe high-current control (especially heated bed).
+
+5- Fuse (Optional) – Adds extra safety by preventing overcurrent.
