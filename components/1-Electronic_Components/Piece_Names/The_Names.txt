@@ -1,6 +1,6 @@
 1- Arduino Mega 2560 – Main microcontroller board.
 
-2- RAMPS 1.4 Shield – Expansion board that connects to the Arduino.
+2- RAMPS 1.6 Shield – Expansion board that connects to the Arduino.
 
 3- Stepper Motor Drivers (A4988 / DRV8825) – One per stepper motor.
 
