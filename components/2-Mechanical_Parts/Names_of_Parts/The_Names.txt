@@ -1,0 +1,15 @@
+1- Printer Frame (Aluminum / Acrylic / 3D-printed) – Main structure.
+
+2- Smooth Rods (8mm) – For linear movement along axes.
+
+3- Linear Bearings (LM8UU) – Slide along the smooth rods.
+
+4- Lead Screws / Threaded Rods – For Z-axis movement.
+
+5- GT2 Timing Belts – Rubber belts for X and Y movement.
+
+6- GT2 Pulleys – Gear wheels for driving the belts.
+
+7- Idler Pulleys / Bearings – Guide and tension the belts.
+
+8- Bed Leveling Springs – Used under the bed for manual leveling.
