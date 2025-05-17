@@ -1,0 +1,21 @@
+1- Arduino Mega 2560 – Main microcontroller board.
+
+2- RAMPS 1.4 Shield – Expansion board that connects to the Arduino.
+
+3- Stepper Motor Drivers (A4988 / DRV8825) – One per stepper motor.
+
+4- NEMA 17 Stepper Motors – At least 4 motors (X, Y, Z, and Extruder).
+
+5- Endstops (Limit Switches) – 3 or more, one per axis.
+ 
+6- LCD 12864 Display (Optional) – For standalone printer control.
+
+7- Power Supply (12V or 24V) – Provides power to the system.
+
+8- Heated Bed (MK2B / MK3) – Heated surface for better print adhesion.
+ 
+9- Thermistors (100k NTC) – For measuring temperatures of the hotend and bed.
+ 
+10- Hotend (e.g., E3D V6) – The component that melts filament for extrusion.
+ 
+11- Cooling Fans – For hotend cooling and part cooling.
