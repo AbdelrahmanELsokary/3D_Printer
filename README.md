@@ -31,6 +31,11 @@ Shell scripts to automate tasks like firmware flashing and initial configuration
 ### ✅ Open-Source  
 Fully open-source: fork it, modify it, and build your own version freely!
 
+
+![readme](https://github.com/user-attachments/assets/2921c13f-e218-4e2d-b4c7-ebf66b2f3a48)
+
+
+
 ## 🛠️ Installation
 
 Clone the repository to your local machine:
