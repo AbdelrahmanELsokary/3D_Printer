@@ -1,5 +1,5 @@
-Marlin V2 (2)/** linguist-vendored
-Marlin-2.1.2.1-20240924T191649Z-001/** linguist-vendored
+"Marlin V2/**" linguist-vendored
+"Marlin-2.1.2.1-20240924T191649Z-001/**" linguist-vendored
 
 *.cpp linguist-vendored
 *.cc linguist-vendored
