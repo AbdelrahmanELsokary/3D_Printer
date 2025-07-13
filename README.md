@@ -1,39 +1,95 @@
-# 🖨️ 3D Printer Open-Source Project
+# 🖨️ 3D Printer Project (Open Source)
 
-This is an open-source 3D printer project based on **Arduino Mega 2560** and **RAMPS 1.6**.  
-Designed for makers, hobbyists, and engineers, this project provides everything you need to assemble, configure, and use a 3D printer.  
+An open-source 3D printer project built using **Arduino Mega 2560** and **RAMPS 1.6**.  
+This project aims to provide a fully customizable and affordable 3D printing solution for hobbyists, makers, and engineers.
 
-The repository includes:
-- Hardware setup details  
-- Marlin firmware configuration  
-- Slicer profiles  
-- Automation scripts  
-For an optimized and customizable 3D printing experience.
+---
 
-## 🔧 Features
+## 🚀 Features
 
-### ✅ Arduino Mega 2560 & RAMPS 1.6  
-Utilizes affordable and widely available hardware components for easy assembly.
+- ✅ Based on **Marlin Firmware** (2.1.2.4)
+- ✅ Supports **12864 LCD**
+- ✅ Designed for **PLA** filament
+- ✅ Manual calibration + test models included
+- ✅ Easy to build & modify
 
-### ✅ Marlin Firmware  
-Pre-configured Marlin firmware for quick setup and print optimization.  
-It’s highly customizable for different printing needs.
+---
 
-### ✅ Full Hardware Setup  
-Comprehensive Bill of Materials (BOM), wiring diagrams, and step-by-step assembly instructions.
+## 🧰 Hardware Used
 
-### ✅ Slicer Profiles  
-Ready-to-use profiles for popular slicers like **Cura** and **PrusaSlicer**, optimized for high-quality prints.
+| Component         | Description                     |
+|-------------------|---------------------------------|
+| Arduino Mega 2560 | Main controller                 |
+| RAMPS 1.6         | Motor & heater driver board     |
+| A4988 Drivers     | Stepper motor drivers           |
+| 12864 LCD         | User interface                  |
+| NEMA 17 Motors    | X, Y, Z axes and extruder       |
+| Power Supply      | 12V or 24V                      |
 
-### ✅ Automation Scripts  
-Shell scripts to automate tasks like firmware flashing and initial configuration.
+---
 
-### ✅ Open-Source  
-Fully open-source: fork it, modify it, and build your own version freely!
+## 🖥️ Software & Firmware
 
+- **Firmware:** Marlin 2.1.2.4  
+- **Host Software:** [Ultimaker Cura](https://ultimaker.com/software/ultimaker-cura)  
+- **Slicing Tools:** Cura, PrusaSlicer, etc.
 
-![readme](https://github.com/user-attachments/assets/2921c13f-e218-4e2d-b4c7-ebf66b2f3a48)
+---
 
+## 🧪 Test Models
+
+Included under `models/`:
+- Calibration cube (`xyzCalibration_cube.stl`)
+- G-code samples
+- Preview models (`.glb`)
+
+---
+
+## ⚙️ Configuration
+
+Firmware settings adjusted for:
+
+- **Steps/mm:**
+  - X: 80
+  - Y: 80
+  - Z: 400
+- **Movement Area:**
+  - X: 220 mm
+  - Y: 220 mm
+  - Z: 250 mm
+
+Configured in `firmware/Marlin_V2/Marlin-2.1.2.4/Marlin/Configuration.h`
+
+---
+
+## 🛠️ Build Instructions
+
+1. Flash Marlin firmware using [PlatformIO](https://platformio.org/)
+2. Wire up RAMPS, motors, endstops, and heaters
+3. Connect LCD and calibrate movement
+4. Test with included `.gcode` files
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome. Feel free to fork and suggest improvements.
+
+---
+
+## 📄 License
+
+MIT License – use, modify, and distribute freely.
+
+---
+
+## 📫 Contact
+
+If you have questions, feel free to open an issue or reach me at:
+
+📧 `abdalrahmanelsokarey@gmail.com`
+
+📱 `01022873425`
 
 
 ## 🛠️ Installation
