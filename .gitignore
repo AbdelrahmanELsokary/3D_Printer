@@ -1,0 +1,11 @@
+# ignore large binaries and installers
+*.exe
+*.zip
+*.gz
+*.tar
+*.xz
+*.msi
+*.iso
+*.bdf
+*.gcode
+all-files.txt
